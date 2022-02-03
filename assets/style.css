@@ -1,0 +1,263 @@
+/* HEADINGS-FONTS-STYLES*/
+h1 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+  color: #a6826d;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+}
+h5 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+}
+h6 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+}
+p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
+}
+
+/*===========*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*====== NAV BAR =======*/
+.nav-bar {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px;
+  float: right;
+  margin-right: 20px;
+}
+@media all and (max-width: 600px) {
+  .nav-bar {
+    margin: 0;
+    float: right;
+    width: 100%;
+  }
+}
+.nav-bar a:link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*===========*/
+/*====== link decoration =====*/
+a:link {
+  color: none;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #a6826d;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff8000;
+}
+
+/* selected link */
+a:active {
+  color: #a6826d;
+}
+/*===========*/
+
+/*===========*/
+/* PADDING- Colomns*/
+
+.padding-30pt {
+  padding-left: 20%;
+  padding-right: 40%;
+  padding-top: 40px;
+}
+.padding-20px {
+  padding: 20px;
+}
+.padding-20tb {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.padding-10tb {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.padding-10lr {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.padding-5tb {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*============*/
+
+/*======IMAGES=====*/
+#header-img {
+  width: 100%;
+  height: auto;
+}
+#logo-img {
+  padding-top: 10px;
+  float: left;
+  width: 220px;
+  margin-left: 20px;
+}
+#img-lea {
+  display: inline;
+  border-radius: 0px 60px 0px 60px;
+  max-width: 250px;
+  max-height: 300px;
+}
+@media all and (max-width: 600px) {
+  #img-lea {
+    display: block;
+    position: relative;
+    max-height: 150px;
+    border-radius: 0px 30px 0px 30px;
+    z-index: 1;
+    margin: -80px;
+    float: right;
+  }
+}
+/*===========*/
+/*=====buttons======*/
+button {
+  background-color: #f2eeeb;
+  color: #a6826d;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px 10px 10px 0px;
+  border-style: none;
+  margin: 20px 5px;
+}
+@media all and (max-width: 600px) {
+  button {
+    margin: 20px 0px;
+  }
+}
+
+/*===========*/
+.text-align-center {
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+
+.flex-container {
+  margin: 10px;
+}
+body {
+  margin: auto;
+  width: 100%;
+  background-image: url("./images/Header\ Image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #ffffff;
+}
+@media all and (max-width: 600px) {
+  body {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.align-center {
+  margin: auto;
+  width: 60%;
+}
+#block-grey {
+  width: 100%;
+  height: 600px;
+  background-color: #595959;
+}
+@media all and (max-width: 600px) {
+  #block-grey {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+  }
+}
+
+.offset {
+  padding: 200px 0px 0px 0px;
+}
+@media all and (max-width: 600px) {
+    .offset {
+        padding: 100px 0px 0px 0px;
+    }
+  }
+#block-white {
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+  padding-top: 80px;
+}
+@media all and (max-width: 600px) {
+  #block-white {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+  }
+}
+.box {
+  float: left;
+  background-color: #f2d8c2;
+  color: #ffffff;
+  width: 300px;
+  height: auto;
+  padding: 40px;
+  opacity: .97;
+}
+.standard-box {
+  float: left;
+  width: 300px;
+  height: auto;
+  padding: 40px;
+  text-align: center;
+}
+@media all and (max-width: 600px) {
+  .standard-box {
+    width: auto;
+  }
+}
+.footer {
+  width: 100%;
+  padding-top: 20px;
+  background-color: #595959;
+  font-size: 12px;
+}
+@media all and (max-width: 600px) {
+  .footer {
+    width: 100%;
+  }
+}
