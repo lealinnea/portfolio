@@ -1,4 +1,4 @@
-/* HEADINGS-FONTS-STYLES*/
+/* =====Fonts and Styles====*/
 h1 {
   font-family: "Montserrat", sans-serif;
   line-height: 2em;
@@ -9,8 +9,7 @@ h2 {
 }
 h3 {
   font-family: "Montserrat", sans-serif;
-  line-height: 2em;
-  color: #a6826d;
+  line-height: 3em;
 }
 h4 {
   font-family: "Montserrat", sans-serif;
@@ -27,237 +26,281 @@ h6 {
 p {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 
 /*===========*/
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-/*====== NAV BAR =======*/
-.nav-bar {
-  text-align: center;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  padding: 0px;
-  float: right;
-  margin-right: 20px;
-}
-@media all and (max-width: 600px) {
-  .nav-bar {
-    margin: 0;
-    float: right;
-    width: 100%;
-  }
-}
-.nav-bar a:link {
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/*===========*/
-/*====== link decoration =====*/
-a:link {
-  color: none;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: #a6826d;
-}
-
-/* mouse over link */
-a:hover {
-  color: #ff8000;
-}
-
-/* selected link */
-a:active {
-  color: #a6826d;
-}
-/*===========*/
-
-/*===========*/
-/* PADDING- Colomns*/
-
-.padding-30pt {
-  padding-left: 20%;
-  padding-right: 40%;
-  padding-top: 40px;
-}
-.padding-20px {
-  padding: 20px;
-}
-.padding-20tb {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.padding-10tb {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.padding-10lr {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.padding-5tb {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-/*============*/
-
-/*======IMAGES=====*/
-#header-img {
-  width: 100%;
-  height: auto;
-}
-#logo-img {
-  padding-top: 10px;
-  float: left;
-  width: 220px;
-  margin-left: 20px;
-}
-#img-lea {
-  display: inline;
-  border-radius: 0px 60px 0px 60px;
-  max-width: 250px;
-  max-height: 300px;
-}
-@media all and (max-width: 600px) {
-  #img-lea {
-    display: block;
-    position: relative;
-    max-height: 150px;
-    border-radius: 0px 30px 0px 30px;
-    z-index: 1;
-    margin: -80px;
-    float: right;
-  }
-}
-/*===========*/
-/*=====buttons======*/
-button {
-  background-color: #f2eeeb;
-  color: #a6826d;
-  font-family: "Montserrat", sans-serif;
-  line-height: 2em;
-  padding: 5px 10px 5px 10px;
-  border-radius: 10px 10px 10px 0px;
-  border-style: none;
-  margin: 20px 5px;
-}
-@media all and (max-width: 600px) {
-  button {
-    margin: 20px 0px;
-  }
-}
-
-/*===========*/
-.text-align-center {
-  text-align: center;
-}
-.container {
-  display: flex;
-}
-
-.flex-container {
-  margin: 10px;
-}
 body {
-  margin: auto;
-  width: 100%;
-  background-image: url("./images/Header\ Image.jpg");
+  background-image: url("/assets/images/backgroundimage.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   background-position: center;
   background-color: #ffffff;
 }
-@media all and (max-width: 600px) {
-  body {
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-  }
-}
-.align-center {
+
+main {
+  width: 80%;
   margin: auto;
-  width: 60%;
 }
-#block-grey {
-  width: 100%;
-  height: 600px;
+
+.center {
+  padding: 70px 0;
+  text-align: center;
+}
+/*====== Nav/Header =======*/
+.header {
+  overflow: hidden;
   background-color: #595959;
+  padding: 20px 10px;
 }
-@media all and (max-width: 600px) {
-  #block-grey {
-    float: left;
-    width: 100%;
-    height: auto;
-    padding: 40px;
+
+.header a {
+  font-family: "Montserrat", sans-serif;
+  float: left;
+  color: #aa9680;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.logo {
+  width: 250px;
+}
+
+.header a:hover {
+  background-color: #e2cebc;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
   }
 }
 
-.offset {
-  padding: 200px 0px 0px 0px;
+/*====== Link Decoration =====*/
+li a:hover {
+  background-color: #555;
+  color: white;
 }
-@media all and (max-width: 600px) {
-    .offset {
-        padding: 100px 0px 0px 0px;
-    }
-  }
-#block-white {
+a:link {
+  text-decoration: none;
+}
+
+.zoom {
+  transition: 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.05);
+}
+/*===== Background Colors ======*/
+.bgc-tan {
+  background-color: #aa9680;
+}
+
+/*======Images=====*/
+#header-img {
   width: 100%;
-  height: 400px;
-  background-color: #ffffff;
-  padding-top: 80px;
+}
+#bg-1 {
+  background-image: url("/assets/images/marketing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*=====buttons======*/
+button {
+  background-color: #e2cebc;
+  color: #595959;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px 0px 10px 0px;
+  border-style: none;
+  margin: 20px 0px;
+  font-size: 16px;
 }
 @media all and (max-width: 600px) {
-  #block-white {
-    float: left;
-    width: 100%;
-    height: auto;
-    padding: 40px;
+  button {
+    margin: 1%;
   }
 }
-.box {
-  float: left;
-  background-color: #f2d8c2;
-  color: #ffffff;
-  width: 300px;
-  height: auto;
-  padding: 40px;
-  opacity: .97;
+/*===Top Section with Image========*/
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
 }
-.standard-box {
-  float: left;
-  width: 300px;
-  height: auto;
+#flex-item-left {
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 40px;
+  flex: 40%;
+}
+#flex-item-right {
+  flex: 60%;
+}
+#flex-item-right > img {
+  width: 400px;
+}
+@media (max-width: 450px) {
+  #flex-item-right > img {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  #flex-item-right,
+  #flex-item-left {
+    width: 100%;
+    flex: 100%;
+  }
+}
+/*====6 Images ==*/
+.flex-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+.flex-container-2 section {
+  flex: 1 0 33%;
+}
+
+/*======Videos======*/
+
+.flex-container-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1300px) {
+  .flex-container-3 {
+    flex-direction: column;
+  }
+}
+.img-1 {
+  width: 70vh;
+}
+.img-2 {
+  width: 30vh;
+}
+@media (max-width: 1300px) {
+  .img-1,
+  .img-2 {
+    width: 40vh;
+  }
+}
+@media (max-width: 40px) {
+  .img-1,
+  .img-2 {
+    width: 100%;
+  }
+}
+
+#flex-video-left {
+  padding: 10px;
+  flex: 50%;
   text-align: center;
 }
-@media all and (max-width: 600px) {
-  .standard-box {
-    width: auto;
-  }
+
+#flex-video-right {
+  text-align: center;
+  padding: 10px;
+  flex: 50%;
 }
-.footer {
-  width: 100%;
-  padding-top: 20px;
-  background-color: #595959;
-  font-size: 12px;
-}
-@media all and (max-width: 600px) {
-  .footer {
+
+@media (max-width: 900px) {
+  #flex-videos-right,
+  #flex-video-left {
     width: 100%;
+    flex: 100%;
   }
 }
+
+/* NOTE: flex reference = https://stackoverflow.com/questions/47480953/what-do-the-0-0-in-flex-0-0-33-stand-for*/
+
+/*============*/
+
+#block {
+  background-color: rgba(255, 255, 255, 0.8);
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+@media all and (max-width: 875px) {
+  #block {
+    justify-content: center;
+    text-align: center;
+  }
+}
+#block section {
+  margin: 10%;
+}
+
+#block-2 {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#block-2 img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+#block-white {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#block-white section {
+  margin: 8% 20%;
+  text-align: center;
+}
+
+#block-white-contact {
+  background-color: rgba(170, 150, 128, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#block-white-contact section {
+  margin: 8% 20%;
+}
+/*===== Footer========*/
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: #595959;
+  color: #e2cebc;
+  font-size: 12px;
+  text-align: center;
+}
+footer p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/*=============*/
