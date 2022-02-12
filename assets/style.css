@@ -37,7 +37,7 @@ p {
 }
 
 body {
-  background-image: url("/assets/images/backgroundimage.jpg");
+  background-image: url("./assets/images/backgroundimage.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -123,7 +123,7 @@ a:link {
   width: 100%;
 }
 #bg-1 {
-  background-image: url("/assets/images/marketing.jpg");
+  background-image: url("./assets/images/marketing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
