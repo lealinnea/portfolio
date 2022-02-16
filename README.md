@@ -6,6 +6,7 @@
  ## Purpose
 To showcase devepoment skillsets in a multitude of prgraming languages.
 Displaying projects and also the comprehension of CSS reguarding resposive layout and design elements.
+My goal was to really push myself to try new things. Since this was my portfolio that I will potentially be putting infront of a client one day i really wanted it to represent my style and who I am as a graphic designer and also my new skills as web creator. I am really excited to fine tune the site over the next few weeks to really come out of this bootcamp with a bang and have something increadable to show at the end.
  
  
  ## Screenshot
