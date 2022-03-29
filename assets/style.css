@@ -97,7 +97,7 @@ main {
     float: none;
   }
 }
-/*===========*/
+
 /*====== Link Decoration =====*/
 li a:hover {
   background-color: #555;
@@ -127,7 +127,7 @@ a:link {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*===========*/
+
 /*=====buttons======*/
 button {
   background-color: #e2cebc;
