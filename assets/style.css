@@ -37,11 +37,7 @@ p {
 }
 
 body {
-<<<<<<< HEAD
-  background-image: url("/assets/images/backgroundimage.jpg");
-=======
   background-image: url("./images/backgroundimage.jpg");
->>>>>>> a8e90a4b636eba30fe0f1c49073c8f13d4d51676
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -121,21 +117,29 @@ a:link {
 .bgc-tan {
   background-color: #aa9680;
 }
+.bgc-white-transparent {
+  background-color: rgba(255, 255, 255, 0.7)
+}
 
 /*======Images=====*/
 #header-img {
   width: 100%;
 }
 #bg-1 {
-<<<<<<< HEAD
-  background-image: url("/assets/images/marketing.jpg");
-=======
   background-image: url("./images/marketing.jpg");
->>>>>>> a8e90a4b636eba30fe0f1c49073c8f13d4d51676
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#lea-image{
+height: 450px;
+border-radius: 40px 0px 40px 0px;
+}
+@media all and (max-width: 875px) {
+  #lea-image {
+ height: 300px;
+ padding-left: 20px;
+  }
+}
 /*=====buttons======*/
 button {
   background-color: #e2cebc;
@@ -153,6 +157,36 @@ button {
     margin: 1%;
   }
 }
+/*===Padding========*/
+.padding-bottom-150{
+  padding-bottom: 150px;
+}
+@media all and (max-width: 875px) {
+  .padding-bottom-150 {
+  padding-bottom:60px;
+    }
+  }
+.padding-top-150{
+  padding-top: 150px;
+}
+@media all and (max-width: 875px) {
+  .padding-bottom-150 {
+  padding-left:20px;
+    }
+  }
+.padding-left-60{
+  padding-left: 60px;
+}
+@media all and (max-width: 875px) {
+.padding-left-60 {
+padding-left: 0px;
+  }
+}
+.padding-tb-60{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /*===Top Section with Image========*/
 .flex-container-1 {
   display: flex;
@@ -192,59 +226,6 @@ button {
   flex: 1 0 33%;
 }
 
-/*======Videos======*/
-
-.flex-container-3 {
-  display: flex;
-  flex-wrap: wrap;
-}
-@media (max-width: 1300px) {
-  .flex-container-3 {
-    flex-direction: column;
-  }
-}
-.img-1 {
-  width: 70vh;
-}
-.img-2 {
-  width: 30vh;
-}
-@media (max-width: 1300px) {
-  .img-1,
-  .img-2 {
-    width: 40vh;
-  }
-}
-@media (max-width: 40px) {
-  .img-1,
-  .img-2 {
-    width: 100%;
-  }
-}
-
-#flex-video-left {
-  padding: 10px;
-  flex: 50%;
-  text-align: center;
-}
-
-#flex-video-right {
-  text-align: center;
-  padding: 10px;
-  flex: 50%;
-}
-
-@media (max-width: 900px) {
-  #flex-videos-right,
-  #flex-video-left {
-    width: 100%;
-    flex: 100%;
-  }
-}
-
-/* NOTE: flex reference = https://stackoverflow.com/questions/47480953/what-do-the-0-0-in-flex-0-0-33-stand-for*/
-
-/*============*/
 
 #block {
   background-color: rgba(255, 255, 255, 0.8);
@@ -312,3 +293,8 @@ footer p {
 }
 
 /*=============*/
+@media all and (max-width: 600px) {
+  #mobile-image {
+ width:280px;
+  }
+}
