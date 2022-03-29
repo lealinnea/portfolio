@@ -37,7 +37,11 @@ p {
 }
 
 body {
+<<<<<<< HEAD
   background-image: url("/assets/images/backgroundimage.jpg");
+=======
+  background-image: url("./images/backgroundimage.jpg");
+>>>>>>> a8e90a4b636eba30fe0f1c49073c8f13d4d51676
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -123,7 +127,11 @@ a:link {
   width: 100%;
 }
 #bg-1 {
+<<<<<<< HEAD
   background-image: url("/assets/images/marketing.jpg");
+=======
+  background-image: url("./images/marketing.jpg");
+>>>>>>> a8e90a4b636eba30fe0f1c49073c8f13d4d51676
   background-repeat: no-repeat;
   background-size: cover;
 }
