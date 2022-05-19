@@ -323,14 +323,15 @@ padding-left: 0px;
   width: 200px;
 }
 #mobile-image{
-  width: 350px;
+  width: 20em;
 }
 #Goodat{
-  width: 500px;
+  width: 100%;
 }
 @media all and (max-width: 600px) {
-  #mobile-image #goodat {
- width:280px;
+#Goodat {
+  width:24em;
+  padding-bottom:20px;
   }
 }
 /*===== Footer========*/
@@ -349,8 +350,8 @@ footer p {
 
 /*=============*/
 .icons{
-height: 30%;
-margin-top: 25%;
+height: 3em;
+margin-top: 6em;
 }
 .grey-box{
   height: 300px;
