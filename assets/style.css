@@ -225,6 +225,10 @@ padding-left: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.padding-tb-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .padding-20{
   padding: 20px;
 }
@@ -359,5 +363,12 @@ margin-top: 6em;
 
 }
 .mobileapp{
-  width: 50px;
+  width: 12em;
   }
+.aetv{
+    width: 25em;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    
