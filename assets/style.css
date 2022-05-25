@@ -232,6 +232,14 @@ padding-left: 0px;
 .padding-20{
   padding: 20px;
 }
+
+.text-align-left{
+  text-align: left;
+  height:150px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow: auto;
+
+}
 /*===Top Section with Image========*/
 .flex-container-1 {
   display: flex;
